@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 625px;
+}
+
+.carta1,
+.carta2,
+.carta3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: red;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 5px 6px 10px black;
+    transition-duration: 0.4s;
+    text-align: center;
+}
+
+
+
+.carta1:hover, .carta2:hover, .carta3:hover {
+    width: 375px;
+    height: 525px;
+}
+
+.carta1 {
+    background-image: url(./hover1/fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition-duration: 0.7s;
+}
+.carta1 h3 {
+    color: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    transition-duration: 0.7s;
+}
+
+.carta1 p {
+    color: transparent;
+    font-size: 18px;
+    transition-duration: 0.7s;
+}
+
+.carta1 h4 {
+    color: transparent;
+    font-size: 18px;
+    margin-top: 10px;
+    transition-duration: 0.7s;
+}
+
+
+.carta1:hover h3,
+.carta1:hover p,
+.carta1:hover h4,
+.carta1:hover{
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.carta1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
+    url(./hover1/fondo1.jpg);
+}
+
+
+
+
+.carta2 {
+    background-image: url(./hover1/fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition-duration: 0.7s;
+}
+.carta2 h3 {
+    color: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    transition-duration: 0.7s;
+}
+
+.carta2 p {
+    color: transparent;
+    font-size: 18px;
+    transition-duration: 0.7s;
+}
+
+.carta2 h4 {
+    color: transparent;
+    font-size: 18px;
+    margin-top: 10px;
+    transition-duration: 0.7s;
+}
+
+
+.carta2:hover h3,
+.carta2:hover p,
+.carta2:hover h4,
+.carta2:hover{
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.carta2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
+    url(./hover1/fondo2.jpg);
+}
+
+
+
+
+.carta3{
+    background-image: url(./hover1/fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition-duration: 0.7s;
+}
+.carta3 h3 {
+    color: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    transition-duration: 0.7s;
+}
+
+.carta3 p {
+    color: transparent;
+    font-size: 18px;
+    transition-duration: 0.7s;
+}
+
+.carta3 h4 {
+    color: transparent;
+    font-size: 18px;
+    margin-top: 10px;
+    transition-duration: 0.7s;
+}
+
+
+.carta3:hover h3,
+.carta3:hover p,
+.carta3:hover h4{
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.carta3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
+    url(./hover1/fondo3.jpg);
+}
