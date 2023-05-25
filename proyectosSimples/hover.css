@@ -38,7 +38,7 @@ body {
 }
 
 .carta1 {
-    background-image: url(./hover1/fondo1.jpg);
+    background-image: url(./imagenesProyectosSimples/fondo7.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,14 +78,14 @@ body {
 }
 .carta1:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
-    url(./hover1/fondo1.jpg);
+    url(./imagenesProyectosSimples/fondo7.jpg);
 }
 
 
 
 
 .carta2 {
-    background-image: url(./hover1/fondo2.jpg);
+    background-image: url(./imagenesProyectosSimples/fondo9.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,14 +125,14 @@ body {
 }
 .carta2:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
-    url(./hover1/fondo2.jpg);
+    url(./imagenesProyectosSimples/fondo9.jpg);
 }
 
 
 
 
 .carta3{
-    background-image: url(./hover1/fondo3.jpg);
+    background-image: url(./imagenesProyectosSimples/fondo8.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,5 +171,5 @@ body {
 }
 .carta3:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
-    url(./hover1/fondo3.jpg);
+    url(./imagenesProyectosSimples/fondo8.jpg);
 }
