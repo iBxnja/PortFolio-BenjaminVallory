@@ -19,7 +19,7 @@ body{
 }
 .contenedor .astronauta{
     width: 130px;
-    animation: movimiento 12s ease infinite;
+    animation: movimiento 12s ease-in-out infinite;
     transition-duration: 1s;
 }
 
@@ -40,12 +40,12 @@ body{
     position: absolute;
     left: 200px;
     bottom: 10px;
-    animation: movimiento2 10s ease-in-out infinite;
+    animation: movimiento2 12s ease-in-out infinite;
 }
 
 @keyframes movimiento2 {
     0% {
-        transform: translateY(20px);
+        transform: translateY(0px);
         opacity: 0;
     }
     50% {
@@ -62,7 +62,7 @@ body{
     bottom: 350px;
     width: 250px;
     position: absolute;
-    animation: movimiento3 50s ease infinite;
+    animation: movimiento3 50s ease-in-out infinite;
 
 }
 .planeta2{
@@ -70,28 +70,22 @@ body{
     bottom: 100px;
     position: absolute;
     width: 200px;
-    animation: movimiento3 20s ease infinite;
+    animation: movimiento3 20s ease-in-out infinite;
 }
 .planeta3{
     left: 350px;
     top: 60px;
     position: absolute;
     width: 200px;
-    animation: movimiento3 10s ease infinite;
+    animation: movimiento3 10s ease-in-out infinite;
 }
 .planeta4{
     right: 350px;
     bottom: 70px;
     position: absolute;
     width: 200px;
-    animation: movimiento3 45s ease infinite;
+    animation: movimiento3 45s ease-in-out infinite;
 }
-
-
-
-
-
-
 
 @keyframes movimiento3 {
     0% {
